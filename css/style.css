@@ -124,8 +124,16 @@ img {
   bottom: -70px;
   right: 0;
   left: 0;
-  background: red;
-  
+  background: #fff;
+  transform: skewY(-3deg);
+  -wedkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+}
+
+/* Stats*/
+.stats {
+  padding-top: 100px;
 }
 
 /* Utilities */
@@ -179,4 +187,8 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
 }
